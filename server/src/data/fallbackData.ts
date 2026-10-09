@@ -36,7 +36,7 @@ export const FALLBACK_PROFILE = {
   institution: "University of Engineering & Management (UEM) Jaipur",
   degree: "B.Tech in Computer Science & Engineering (Expected 2028)",
   location: "Jaipur, Rajasthan, India",
-  phone: "+91 7477354574",
+  phone: "+91 8695877959",
   bio: "Full-stack and cross-platform app developer shipping real products from native Android (Kotlin) to Flutter and React Native. Pairs modern engineering with a cybersecurity mindset honed through hands-on CTF competitions and secure coding practices. President of a 100+ member college club (Atrang), represented UEM at MOOD INDIGO (IIT Bombay), and selected as an open-source contributor for GirlScript Summer of Code (GSSOC) 2026 out of 95,000+ applicants.",
   pillars: [
     {
@@ -56,7 +56,7 @@ export const FALLBACK_PROFILE = {
     github: "https://github.com/subhabrata05",
     linkedin: "https://linkedin.com/in/subhabrata-dey-53892440b",
     email: "deysubhabrata010@gmail.com",
-    phone: "+91 7477354574",
+    phone: "+91 8695877959",
     instagram: "https://instagram.com"
   }
 };
