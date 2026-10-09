@@ -22,3 +22,27 @@ body {
   overflow-x: hidden;
   background: #05050a;
 }
+
+@layer utilities {
+  .glass-card {
+    background: rgba(12, 13, 19, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .glass-card-hover:hover {
+    transform: translateY(-4px);
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow: 0 12px 32px -8px rgba(59, 130, 246, 0.2);
+  }
+  .glass-pill {
+    background: rgba(18, 20, 30, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .shadow-glow-subtle {
+    box-shadow: 0 0 20px -4px rgba(59, 130, 246, 0.25);
+  }
+}
