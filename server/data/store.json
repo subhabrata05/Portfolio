@@ -1,0 +1,225 @@
+{
+  "projects": [
+    {
+      "id": "proj-jarvis",
+      "title": "JARVIS — Personal AI Chat Assistant",
+      "slug": "jarvis-ai-assistant",
+      "summary": "Full-stack conversational AI assistant with a React 19 frontend and an Express REST backend powered by Groq's low-latency Llama-3.3-70b-versatile model.",
+      "description": "Built a full-stack AI assistant with a React 19 frontend and an Express REST API backend. Integrated Groq’s llama-3.3-70b-versatile model for fast, low-latency conversational responses. Engineered a production backend with CORS-protected endpoints, request-logging middleware, and a health-check endpoint. Designed a clean API contract to keep the frontend and AI backend decoupled and independently deployable.",
+      "technologies": [
+        "React 19",
+        "Node.js",
+        "Express",
+        "Groq LLM API",
+        "Llama 3.3 70B",
+        "REST APIs",
+        "CORS"
+      ],
+      "tags": [
+        "React 19",
+        "Node.js",
+        "Express",
+        "Groq LLM API",
+        "Llama 3.3 70B",
+        "REST APIs",
+        "CORS"
+      ],
+      "imageUrls": [],
+      "imageUrl": null,
+      "githubUrl": "https://github.com/subhabrata05",
+      "liveDemoUrl": "#",
+      "liveUrl": "#",
+      "published": true,
+      "category": "AI & ML",
+      "featured": true,
+      "sortOrder": 0,
+      "createdAt": "2026-10-09T17:00:00.000Z",
+      "updatedAt": "2026-10-09T17:00:00.000Z"
+    },
+    {
+      "id": "proj-ultron",
+      "title": "U.L.T.R.O.N. — Interactive 3D Orb Interface",
+      "slug": "ultron-3d-orb-interface",
+      "summary": "Hands-free 3D interactive interface using Three.js for real-time rendering, MediaPipe computer-vision hand tracking, and Web Speech API voice control.",
+      "description": "Built a hands-free 3D interface using Three.js for real-time rendering inside a Next.js application. Integrated MediaPipe computer-vision hand-tracking to drive 10+ gesture controls entirely via webcam. Layered in Web Speech API voice commands and full keyboard-shortcut parity, creating three independent input modes.",
+      "technologies": [
+        "Next.js",
+        "React 19",
+        "Three.js",
+        "MediaPipe",
+        "Computer Vision",
+        "Web Speech API"
+      ],
+      "tags": [
+        "Next.js",
+        "React 19",
+        "Three.js",
+        "MediaPipe",
+        "Computer Vision",
+        "Web Speech API"
+      ],
+      "imageUrls": [],
+      "imageUrl": null,
+      "githubUrl": "https://github.com/subhabrata05",
+      "liveDemoUrl": "#",
+      "liveUrl": "#",
+      "published": true,
+      "category": "Creative Tech",
+      "featured": true,
+      "sortOrder": 1,
+      "createdAt": "2026-10-09T17:00:00.000Z",
+      "updatedAt": "2026-10-09T17:00:00.000Z"
+    },
+    {
+      "id": "proj-mobile-apps",
+      "title": "Cross-Platform & Native Mobile Applications",
+      "slug": "cross-platform-mobile-apps",
+      "summary": "Suite of mobile applications spanning native Android (Kotlin), Flutter, and React Native with Firebase integration and offline persistence.",
+      "description": "Engineered scalable mobile applications focusing on native responsiveness, battery efficiency, and cross-platform flexibility. Developed native Android apps with Kotlin utilizing modern Jetpack libraries, alongside multi-platform Flutter and React Native deployments connected to Firebase authentication and cloud databases.",
+      "technologies": [
+        "Android (Kotlin)",
+        "Flutter",
+        "React Native",
+        "Firebase",
+        "REST APIs"
+      ],
+      "tags": [
+        "Android (Kotlin)",
+        "Flutter",
+        "React Native",
+        "Firebase",
+        "REST APIs"
+      ],
+      "imageUrls": [],
+      "imageUrl": null,
+      "githubUrl": "https://github.com/subhabrata05",
+      "liveDemoUrl": "#",
+      "liveUrl": "#",
+      "published": true,
+      "category": "App Development",
+      "featured": true,
+      "sortOrder": 2,
+      "createdAt": "2026-10-09T17:00:00.000Z",
+      "updatedAt": "2026-10-09T17:00:00.000Z"
+    },
+    {
+      "id": "proj-portfolio-3d",
+      "title": "Cinematic 3D Parallax Portfolio & Admin Studio",
+      "slug": "cinematic-3d-portfolio",
+      "summary": "Production WebGL portfolio platform with interactive 3D procedural shaders, GSAP, and a JWT-protected Express backend.",
+      "description": "High-performance digital presence combining React 19, Three.js (R3F), and GSAP parallax timelines with a typed Node.js/Express REST backend. Features a protected Admin Studio with JWT authorization, project CRUD, and contact message processing.",
+      "technologies": [
+        "React 19",
+        "TypeScript",
+        "Three.js",
+        "R3F",
+        "Tailwind CSS",
+        "GSAP",
+        "Prisma",
+        "Express",
+        "JWT"
+      ],
+      "tags": [
+        "React 19",
+        "TypeScript",
+        "Three.js",
+        "R3F",
+        "Tailwind CSS",
+        "GSAP",
+        "Prisma",
+        "Express",
+        "JWT"
+      ],
+      "imageUrls": [],
+      "imageUrl": null,
+      "githubUrl": "https://github.com/subhabrata05",
+      "liveDemoUrl": "#",
+      "liveUrl": "#",
+      "published": true,
+      "category": "Web Development",
+      "featured": true,
+      "sortOrder": 3,
+      "createdAt": "2026-10-09T17:00:00.000Z",
+      "updatedAt": "2026-10-09T17:00:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1791566668957-m3n7x",
+      "senderName": "Dr. Elena Vance (Academic Advisor)",
+      "name": "Dr. Elena Vance (Academic Advisor)",
+      "email": "elena.vance@uem.edu.in",
+      "subject": "Research in Distributed Web Graphics",
+      "message": "Hi Subhabrata, reviewing your portfolio architecture. Very solid implementation of Node, Express, and Prisma!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T17:24:28.957Z"
+    },
+    {
+      "id": "msg-1791566491828-nm3hh",
+      "senderName": "Dr. Elena Vance (Academic Advisor)",
+      "name": "Dr. Elena Vance (Academic Advisor)",
+      "email": "elena.vance@uem.edu.in",
+      "subject": "Research in Distributed Web Graphics",
+      "message": "Hi Subhabrata, reviewing your portfolio architecture. Very solid implementation of Node, Express, and Prisma!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T17:21:31.828Z"
+    },
+    {
+      "id": "msg-1791564802454-e9102",
+      "senderName": "Dr. Elena Vance (Academic Advisor)",
+      "name": "Dr. Elena Vance (Academic Advisor)",
+      "email": "elena.vance@uem.edu.in",
+      "subject": "Research in Distributed Web Graphics",
+      "message": "Hi Subhabrata, reviewing your portfolio architecture. Very solid implementation of Node, Express, and Prisma!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T16:53:22.454Z"
+    },
+    {
+      "id": "msg-1791564720383-17ldy",
+      "senderName": "Dr. Elena Vance (Academic Advisor)",
+      "name": "Dr. Elena Vance (Academic Advisor)",
+      "email": "elena.vance@uem.edu.in",
+      "subject": "Research in Distributed Web Graphics",
+      "message": "Hi Subhabrata, reviewing your portfolio architecture. Very solid implementation of Node, Express, and Prisma!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T16:52:00.383Z"
+    },
+    {
+      "id": "msg-1791564061743-p3y00",
+      "senderName": "Test Client",
+      "name": "Test Client",
+      "email": "client@example.com",
+      "subject": "Full-Stack Portfolio Inquiry",
+      "message": "Hello Subhabrata, testing your end-to-end full stack portfolio contact API pipeline!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T16:41:01.743Z"
+    },
+    {
+      "id": "msg-1791563959706-w9sft",
+      "senderName": "Sarah Connor",
+      "name": "Sarah Connor",
+      "email": "sarah@cyberdyne.org",
+      "subject": "AI Integration Inquiry",
+      "message": "Looking forward to discussing creative tech and AI agent architectures.",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T16:39:19.706Z"
+    },
+    {
+      "id": "msg-1791563765146-5rtv9",
+      "senderName": "John Test Recruiter",
+      "name": "John Test Recruiter",
+      "email": "recruiter@techventures.io",
+      "subject": "Senior Software Engineering Role",
+      "message": "Hello Subhabrata, we love your 3D portfolio and full-stack architecture. Would love to connect!",
+      "status": "unread",
+      "read": false,
+      "createdAt": "2026-10-09T16:36:05.146Z"
+    }
+  ]
+}
