@@ -15,13 +15,18 @@ export const HeroSection: React.FC = () => {
     }
 
     const ctx = gsap.context(() => {
-      gsap.from('.hero-reveal', {
-        y: 30,
-        opacity: 0,
-        duration: 0.95,
-        stagger: 0.1,
-        ease: 'power3.out',
-      });
+      gsap.fromTo(
+        '.hero-reveal',
+        { y: 24, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          stagger: 0.08,
+          ease: 'power3.out',
+          clearProps: 'all',
+        }
+      );
     }, heroContainerRef);
 
     return () => ctx.revert();
@@ -31,7 +36,7 @@ export const HeroSection: React.FC = () => {
     <section 
       id="hero" 
       ref={heroContainerRef}
-      className="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 sm:px-8 overflow-hidden bg-background"
+      className="relative min-h-screen flex items-center justify-center pt-32 sm:pt-36 pb-20 px-4 sm:px-8 overflow-hidden bg-background"
     >
       {/* 3D Background Canvas Layer with Stars & Glowing 3D Object on the Right */}
       <CanvasContainer />
@@ -49,7 +54,7 @@ export const HeroSection: React.FC = () => {
       <div className="absolute inset-0 bg-radial-gradient from-transparent via-background/25 to-background pointer-events-none z-0" />
 
       {/* Foreground Hero Content Container */}
-      <div className="relative z-10 max-w-7xl mx-auto w-full">
+      <div className="relative z-20 max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
           {/* Left Column: Oversized Cinematic Headline & CTAs */}

@@ -24,24 +24,59 @@ body {
 }
 
 @layer utilities {
+  .gradient-electric {
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-neon-violet {
+    background: linear-gradient(135deg, #c084fc 0%, #818cf8 40%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-glow-violet {
+    filter: drop-shadow(0 0 25px rgba(139, 92, 246, 0.45));
+  }
+
+  .text-glow {
+    text-shadow: 0 0 16px rgba(59, 130, 246, 0.6);
+  }
+
+  .badge-glow {
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    color: #93c5fd;
+    box-shadow: 0 0 15px -3px rgba(59, 130, 246, 0.2);
+  }
+
+  .bg-radial-gradient {
+    background: radial-gradient(circle at center, var(--tw-gradient-stops));
+  }
+
   .glass-card {
     background: rgba(12, 13, 19, 0.7);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
   }
+
   .glass-card-hover {
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
+
   .glass-card-hover:hover {
     transform: translateY(-4px);
     border-color: rgba(59, 130, 246, 0.35);
     box-shadow: 0 12px 32px -8px rgba(59, 130, 246, 0.2);
   }
+
   .glass-pill {
     background: rgba(18, 20, 30, 0.75);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
+
   .shadow-glow-subtle {
     box-shadow: 0 0 20px -4px rgba(59, 130, 246, 0.25);
   }
